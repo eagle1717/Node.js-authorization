@@ -10,10 +10,6 @@ import {
     updatePassword,
 } from "../controllers/auth.js";
 
-router.get("/test", (req, res) => {
-    res.send("<h1>Hey</h1>")
-})
-
 router.post("/sign-up", signUp);
 
 router.post("/sign-in", signIn);
